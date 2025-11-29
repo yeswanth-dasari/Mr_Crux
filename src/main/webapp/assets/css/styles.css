@@ -1,4 +1,69 @@
-body { font-family: Arial, sans-serif; margin: 20px; color:#222; }
-header { margin-bottom: 20px; }
-nav a { margin-right: 8px; color: #2b6cb0; text-decoration: none; }
-.gallery img { width: 300px; margin: 8px; border-radius: 6px; }
+    body{
+      background-color: rgb(161, 136, 136);
+    }
+    
+    .title-text{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid: 15px;
+      padding: 20px;
+      background-color: rgba(252, 216, 216, 0.881);
+    }
+
+     .image-button {
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    .image-button img{
+      width: 250px;
+      height: 250px;
+      margin-top: 30px;
+      cursor: cell;
+      border: 3px solid rgb(44, 42, 42);
+    }
+    .image-button p{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .image-button button{
+      font-size: 14px;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background-color: rgb(68, 175, 225);
+      color: black;
+      border: 1px solid rgb(28, 27, 27);
+      cursor: pointer; 
+    }
+
+    .image-button button:hover{
+      background-color: rgb(25, 5, 241);
+      color: white;
+    }
+    .image-button:hover{
+      background-color: rgb(164, 212, 115);
+    }
+
+    .home-buttons .buttons-bar{
+      display:inline-flex;
+      font-size: 20px;
+      font-weight: bold; 
+      color: black; 
+      border: 2px solid rgb(236, 211, 211);
+      border-radius: 20px;
+      background-color: rgb(237, 215, 215); 
+      padding: 5px;   
+    }
+    .home-buttons .buttons-bar:hover{
+      background-color: black;
+      color: white;
+    }
